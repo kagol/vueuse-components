@@ -3,8 +3,7 @@ import Theme from 'vitepress/dist/client/theme-default'
 import { registerComponents } from './register-components.js'
 import 'vitepress-theme-demoblock/theme/styles/index.css'
 
-// import useComponents from '../../../src'
-import useComponents from '../../../dist/vueuse-components.es'
+import useComponents from '../../../src'
 
 export default {
   ...Theme,

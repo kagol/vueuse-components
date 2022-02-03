@@ -1,6 +1,7 @@
 {
   "name": "vueuse-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "Vueuse Components",
   "files": ["dist"],
   "main": "./dist/vueuse-components.umd.js",
   "module": "./dist/vueuse-components.es.js",

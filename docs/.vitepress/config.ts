@@ -2,7 +2,12 @@ import { demoBlockPlugin } from 'vitepress-theme-demoblock'
 
 const sidebar = {
   "/": [
-    { text: "vueuse-components", link: "/" }
+    { text: "快速开始", link: "/" },
+    {
+      text: "Composables", children: [
+        { text: "usePage", link: "/composables/use-page/"}
+      ]
+    }
   ]
 }
 

@@ -7,7 +7,8 @@ const sidebar = {
 }
 
 const config = {
-  title: 'vueuse-components',
+  base: '/vueuse-components/',
+  title: 'Vueuse Components',
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/assets/logo.svg' }],
   ],

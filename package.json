@@ -7,7 +7,7 @@
   "module": "./dist/vueuse-components.es.js",
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "build": "vitepress build docs && cp docs/assets/* docs/.vitepress/dist/assets",
     "preview": "vitepress preview docs",
     "build:lib": "vue-tsc --noEmit && vite build",
     "register:components": "vitepress-rc",

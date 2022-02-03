@@ -11,6 +11,10 @@ const sidebar = {
   ]
 }
 
+const nav = [
+  { text: 'Github', link: 'https://github.com/kagol/vueuse-components' }
+]
+
 const config = {
   base: '/vueuse-components/',
   title: 'Vueuse Components',
@@ -19,6 +23,7 @@ const config = {
   ],
   themeConfig: {
     sidebar,
+    nav,
     logo: '/assets/logo.svg',
   },
   markdown: {
